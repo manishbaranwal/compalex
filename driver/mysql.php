@@ -86,7 +86,7 @@ class Driver extends BaseDriver
                     cl.TABLE_SCHEMA = '<<BASENAME>>' AND
                     ss.TABLE_TYPE = '{$type}'
                   ORDER BY
-                    cl.table_name ";
+                    cl.table_name, cl.COLUMN_NAME ";
         return $this->_getCompareArray($query);
     }
 

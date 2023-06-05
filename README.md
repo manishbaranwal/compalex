@@ -104,7 +104,8 @@ Compalex is only supported by PHP 5.4 and up with PDO extension.
 
 	$ git clone https://github.com/dlevsha/compalex.git
 	$ cd compalex
-	
+
+Create a clone of `.environment.sample` file with the name `.environment`
 Open `.environment`. You'll see configuration params
 
 ```ini
